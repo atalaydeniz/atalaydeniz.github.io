@@ -3,6 +3,10 @@ body {
   font-family: "Gill Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .photodiv {
   margin-top: 60px;
   margin-bottom: 40px;
@@ -30,5 +34,3 @@ body {
 .current {
   color: green;
 }
-
-/*# sourceMappingURL=styles.css.map */

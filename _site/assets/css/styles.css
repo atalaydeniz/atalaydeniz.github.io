@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF2DB;
+  background-color: #FFF6DD;
   font-family: "Gill Sans", sans-serif;
 }
 
@@ -8,13 +8,14 @@ a {
 }
 
 .photodiv {
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 45px;
+  margin-bottom: 20px;
 }
 
 .introductiontitle {
   margin-left: 30%;
   margin-right: 30%;
+  color: #464646;
 }
 
 .introduction {
@@ -25,8 +26,13 @@ a {
 
 .avatar {
   width: 180px;
-  height: 180px;
-  border-radius: 50%;
+  height: 216px;
+      /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+    border-radius: 40px;
   display: block;
   margin: auto;
 }
